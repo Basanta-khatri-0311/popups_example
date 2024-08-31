@@ -20,7 +20,9 @@ body{
 }
 
 .popup{
-  width: 500px;
+  font-family: 'Inika';
+  font-weight: 400;
+  width: 700px;
   height: 300px;
   background-color: rgba(254, 250, 243, 1);
   border-radius: 28px;
@@ -32,6 +34,7 @@ body{
   transform: translate(-50%,-50%) scale(0);
   transition: all 0.2s ease-in-out;
 }
+
 .close-icon{
   font-size: 48px;
   font-weight: 700;
@@ -57,4 +60,61 @@ body{
 
 .popup-open .overlay{
   display: block;
+}
+
+.btn-div{
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 484px;
+  height: 245px;
+  background-color: rgba(254, 250, 243, 1);
+  border-radius: 28px;
+}
+
+.btn{
+  background-color: rgba(235, 191, 83, 1);
+  color: rgba(254, 250, 243, 1);
+  border: 1px solid rgba(254, 250, 243, 1);
+  border-radius: 32px;
+  position: absolute;
+  width: 285px;
+  height: 63px;
+  inset: 0;
+  margin: auto;
+}
+.popup h2{
+  padding-left: 250px;
+  padding-top: 80px;
+}
+.popup p{
+  padding-left: 250px;
+}
+
+img{
+  width: 213px;
+  height: 218px;
+  position: fixed;
+  left: 40px;
+  top: -50px;
+}
+input{
+  font-size: 18px;
+  margin-top: 70px;
+  margin-left: 70px;
+  width: 420px;
+  padding: 10px;
+  border-radius: 28px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn2{
+  font-size: 18px;
+  background-color: rgba(235, 191, 83, 1);
+  color:rgba(254, 250, 243, 1) ;
+  width: 180px;
+  padding: 10px;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  margin-left: -5px;
 }
